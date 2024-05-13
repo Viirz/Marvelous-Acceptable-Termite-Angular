@@ -1,0 +1,10 @@
+:host { 
+  display: contents; 
+}
+.dashboardhero3-header9 {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}

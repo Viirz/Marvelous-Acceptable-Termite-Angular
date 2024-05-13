@@ -1,0 +1,37 @@
+<div class="profile-navbar-container" [ngClass]="rootClassName">
+  <header data-thq="thq-navbar" class="profile-navbar-navbar-interactive">
+    <img
+      [attr.alt]="imageAlt3"
+      [attr.src]="imageSrc3"
+      loading="lazy"
+      class="profile-navbar-image"
+    />
+    <div data-thq="thq-mobile-menu" class="profile-navbar-mobile-menu">
+      <div class="profile-navbar-nav">
+        <div class="profile-navbar-top">
+          <img
+            [attr.alt]="logoAlt"
+            [attr.src]="logoSrc"
+            class="profile-navbar-logo"
+          />
+          <div data-thq="thq-close-menu" class="profile-navbar-close-menu">
+            <svg viewBox="0 0 1024 1024" class="profile-navbar-icon">
+              <path
+                d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+              ></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div data-thq="thq-navbar-nav" class="profile-navbar-desktop-menu">
+      <div class="profile-navbar-buttons">
+        <button class="thq-button-outline">{{ action2 }}</button>
+      </div>
+      <div class="profile-navbar-buttons1">
+        <button class="thq-button-filled">{{ action1 }}</button>
+      </div>
+    </div>
+  </header>
+  <div data-thq="thq-burger-menu" class="profile-navbar-burger-menu"></div>
+</div>
